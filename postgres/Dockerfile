@@ -1,0 +1,7 @@
+FROM postgres
+LABEL authors="Luan Lucas"
+ENV POSTGRES_DB=luan POSTGRES_USER=luan POSTGRES_PASSWORD=luan
+EXPOSE 5432
+
+
+
